@@ -102,3 +102,5 @@ if __name__ == '__main__':
             for number, frequency in sorted(frequencies.items()):
                 writer.writerow([number, frequency])
         print("Final frequency results have been written to big_data.csv")
+
+#Ctrl + C to stop on Mac
